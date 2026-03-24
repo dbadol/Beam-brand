@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 544 544">
+<!-- The BEAM WARP logo in pure SVG (no CSS) -->
+  <defs>
+    <linearGradient id="Grad1" x1="0%" y1="50%" x2="0%" y2="10%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Grad2" x1="0%" y1="50%" x2="0%" y2="10%">
+      <stop offset="0" stop-color="#24c1ff"/>
+      <stop offset="1" stop-color="#24c1ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Grad3" x1="0%" y1="50%" x2="0%" y2="10%">
+      <stop offset="0" stop-color="#0b76ff"/>
+      <stop offset="1" stop-color="#0b76ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Grad4" x1="0%" y1="50%" x2="0%" y2="10%">
+      <stop offset="0" stop-color="#39fff2"/>
+      <stop offset="1" stop-color="#39fff2" stop-opacity="0"/>
+    </linearGradient>
+    <path id="Ray" d="M0,0l-10-257h20z"/>
+  </defs>
+  <title>Beam Warp logo</title>
+  <g id="Logo_in_circle">
+    <circle id="Circle" fill="#200038" cx="272" cy="272" r="272"/>
+    <g id="Logo">
+      <g transform="translate(272,282)">
+        <use href="#Ray" id="Ray_R1" fill="url(#Grad1)" transform="rotate(25)"/>
+        <use href="#Ray" id="Ray_R2" fill="url(#Grad4)" transform="rotate(35) scale(0.85)"/>
+        <use href="#Ray" id="Ray_R3" fill="url(#Grad3)" transform="rotate(65) scale(0.85)"/>
+        <use href="#Ray" id="Ray_R4" fill="url(#Grad2)" transform="rotate(105)"/>
+        <use href="#Ray" id="Ray_L1" fill="url(#Grad2)" transform="rotate(-30)"/>
+        <use href="#Ray" id="Ray_L2" fill="url(#Grad1)" transform="rotate(-60)"/>
+        <use href="#Ray" id="Ray_L3" fill="url(#Grad3)" transform="rotate(-70) scale(0.85)"/>
+        <use href="#Ray" id="Ray_L4" fill="url(#Grad4)" transform="rotate(-105)"/>
+      </g>
+      <path id="Triangle_outer_left" fill="#9d6eff" d="M272.25,327.21h-77.53l77.5-135v-81.56l-151.94,260.19h151.94z"/>
+      <path id="Triangle_outer_right" fill="#ab37e6" d="M272.25,327.21h77.53l-77.5-135v-81.56l151.94,260.19h-151.94z"/>
+      <path id="Triangle_inner_left" fill="#ff52ff" d="M272.25,226.3v87.27l-47.48,0.1z"/>
+      <path id="Triangle_inner_right" fill="#ab37e6" d="M272.25,226.3v87.27l47.48,0.1z"/>
+      <path id="BEAM_text" fill="#9d6eff" d="
+        M164,427v-31.74c1.81-0.09,6.33-0.27,9.87-0.27c7.78,0,10.94,3.51,10.94,7.93c0,4.2-2.14,6.1-3.72,7.12c2.37,0.86,4.65,3.19,4.65,7.29c0,6.71-5.3,9.85-12.38,9.85c-3.12,0-7.45-0.09-9.36-0.18zm7.45-12.81v6c0.83,0.24,1.4,0.27,2.51,0.27c2.89,0,4.33-1.23,4.33-3.37s-1.53-2.9-3.96-2.9zm0-12.18v5.79h2.47c1.9,0,3.44-0.77,3.44-3.1s-1.77-2.87-3.58-2.87c-0.64,0-1.55,0.04-2.33,0.18z
+        M223.78,427v-31.92h19.32v6.89h-11.87v5.61h10.48v6.84h-10.48v5.79h12.34v6.76z
+        M277.41,427l13.59-31.92h6.66l13.52,31.89h-8l-2.7-6.7h-12.9l-2.7,6.7zm12.99-13.57h7.32l-3.64-9z
+        M346.41,427v-31.89h7.5l10.09,13.45l9.5-13.45h7v31.89h-7.45v-20.31 l-9.05,12.45h-1.1l-9-12.31v20.17z
+      "/>
+      <path id="WARP_text" fill="#25c1ff" d="
+        M172.7,477.5l-9.17-32.02h7.63l5.62,23.14l6.1-23.14h5.33l6.05,23.14l5.57-23.14h7.63l-9.12,32.02h-7.25l-5.57-21.98l-5.57,21.98z
+        M233,477.5l13.59-31.92h6.66l13.52,31.89h-8l-2.7-6.7h-12.9l-2.7,6.7zm12.99-13.57h7.32l-3.64-9z
+        M297.28,477.5v-32.02h14.98q4.94,0,7.85,2.88t2.9,7.44t-2.04,6.38t-4.97,3.12l7.2,12.19h-7.82l-6.29-11.38h-4.99v11.38zm6.82-17.38h7.15q2.11,0,3.46-1.18t1.34-3.14t-1.34-3.14t-3.46-1.18h-7.15z
+        M355.18,477.5v-32.02h14.98q5.04,0,7.9,2.95t2.86,7.37t-2.88,7.34t-7.87,2.98h-8.16v11.38zm6.82-17.38h7.25q2.06,0,3.38-1.18t1.32-3.14t-1.32-3.14t-3.38-1.18h-7.25z
+      "/>
+    </g>
+  </g>
+</svg>
