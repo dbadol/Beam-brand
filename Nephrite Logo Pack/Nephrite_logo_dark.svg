@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-160 -160 1100 1100">
+  <defs>
+    <linearGradient id="Grad1" x1="0%" x2="55%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#F3FFD4" stop-opacity="0"/>
+      <stop offset="99.98%" stop-color="#F3FFD4"/>
+    </linearGradient>
+    <linearGradient id="Grad2" x1="100%" x2="50%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#516B04" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#628008"/>
+    </linearGradient>
+    <linearGradient id="Grad3" x1="100%" x2="41%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#A6B500" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#A6B500"/>
+    </linearGradient>
+    <linearGradient id="Grad4" x1="100%" x2="35%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#A4E000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#A4E000"/>
+    </linearGradient>
+  </defs>
+  <title>Nephrite logo</title>
+  <g id="Logo_in_circle">
+    <circle id="Circle" fill="#0E1400" cx="390" cy="390" r="550"/>
+    <g id="Logo" transform="translate(15 65)">
+      <polygon id="Triangle_outer_left" fill="#A4E000" points="374.6 437.24 218.66 437.24 374.47 164.97 374.47 0 68.93 525 374.74 525"/>
+      <polygon id="Triangle_outer_right" fill="#3F5400" points="374.6 437.24 530.81 437.24 374.74 164.97 374.74 0 680.41 524.87 374.6 524.87"/>
+      <polygon id="Left_ray" fill="url(#Grad1)" points="0 164.31 374.6 337.73 374.6 355.81 .13 273.72"/>
+      <polygon id="Lower_right_ray" fill="url(#Grad2)" points="750 330.6 374.6 355.81 374.6 349.87 750 258.41"/>
+      <polygon id="Middle_right_ray" fill="url(#Grad3)" points="750 186.09 374.6 343.8 374.6 349.87 750 258.41"/>
+      <polygon id="Upper_right_ray" fill="url(#Grad4)" points="750 113.76 374.6 337.86 374.6 343.93 750 186.09"/>
+      <path id="Diamond_1" fill="#F3FFD4" d="M375.55 252.27l26.77 31.86h-54.2l26.75-31.86c.08-.17.46-.27.68 0z"/>
+      <path id="Diamond_2" fill="#3F5400" d="M374.98 417.81l-26.86-31.97h54.2l-26.76 31.92c-.17.27-.37.28-.58.05z"/>
+      <path id="Diamond_3" fill="#A4E000" d="M375.45 252.16l55.8 31.97h-28.93zM374.95 252.17l-26.83 31.96-28.98 0z"/>
+      <path id="Diamond_4" fill="#A6B500" d="M348.02 284.14h54.35v101.7h-54.35z"/>
+      <path id="Diamond_5" fill="#5E8000" d="M319.03 284.13h28.99v101.75h-28.99zm83.29 0h29.03v101.73h-28.99z"/>
+      <path id="Diamond_6" fill="#88AB00" d="M348.12 385.84l26.86 31.97-55.68-31.97zM431.14 385.84l-55.62 31.98 26.8-31.98z"/>
+    </g>
+    <g id="NEPHRITE_text" fill="#F3FFD4" transform="translate(126 659)">
+      <polygon points="31.78 46.69 43.4 46.69 43.4 0 31.29 0 31.29 26.88 12.39 0 0 0 0 46.69 12.04 46.69 12.04 18.48"/>
+      <polygon points="80.8 46.69 115.03 46.69 115.03 36.54 92.84 36.54 92.84 28.14 114.54 28.14 114.54 17.92 92.84 17.92 92.84 10.15 115.03 10.15 115.03 0 80.8 0"/>
+      <path d="M151.03 46.69h12.04V30.87h11.34c10.5 0 16.24-6.93 16.24-15.33 0-8.47-5.74-15.54-16.24-15.54h-23.38v46.69Zm27.37-31.22c0 3.15-2.38 5.18-5.6 5.18h-9.73v-10.5h9.73c3.22 0 5.6 2.1 5.6 5.32Z"/>
+      <polygon points="256.47 46.69 268.51 46.69 268.51 0 256.47 0 256.47 17.43 237.08 17.43 237.08 0 225.04 0 225.04 46.69 237.08 46.69 237.08 27.93 256.47 27.93"/>
+      <path d="M331.95 46.69h13.79l-9.52-17.15c4.34-1.54 9.31-5.88 9.31-14 0-8.68-5.88-15.54-16.24-15.54h-23.38v46.69h12.04V30.87h6.16l7.84 15.82Zm1.33-31.29c0 3.22-2.66 5.25-5.81 5.25h-9.52v-10.5h9.52c3.15 0 5.81 2.03 5.81 5.25Z"/>
+      <polygon points="381.18 46.69 393.22 46.69 393.22 0 381.18 0"/>
+      <polygon points="441.05 46.69 453.09 46.69 453.09 10.5 466.11 10.5 466.11 0 427.96 0 427.96 10.5 441.05 10.5"/>
+      <polygon points="500.85 46.69 535.08 46.69 535.08 36.54 512.89 36.54 512.89 28.14 534.59 28.14 534.59 17.92 512.89 17.92 512.89 10.15 535.08 10.15 535.08 0 500.85 0"/>
+    </g>
+  </g>
+</svg>
